@@ -6,21 +6,31 @@ we create a roll and dice game using a random module in Python
 import random
 
 def roll():
+
     min_value = 1
+    
     max_value = 6
+    
     return random.randint(min_value, max_value)
 
 def game():
+
     while True:
+    
         print("Rolling the dice...")
+        
         dice_value = roll()
         
         print("After rolling you get ", dice_value)
         
         roll_again = input("Do you want to roll the dice again? (yes/no): ")
+        
         if roll_again.lower() not in ['yes', 'y']:
+        
             print("Thanks for playing! Goodbye!")
+            
             break
+
 game()
 
 # Output:
