@@ -36,12 +36,21 @@ game()
 # Output:
 
 Rolling the dice...
+
 After rolling you get  6
+
 Do you want to roll the dice again? (yes/no): y
+
 Rolling the dice...
+
 After rolling you get  3
+
 Do you want to roll the dice again? (yes/no): y
+
 Rolling the dice...
+
 After rolling you get  4
+
 Do you want to roll the dice again? (yes/no): n
+
 Thanks for playing! Goodbye!
